@@ -1,0 +1,12 @@
+{
+  "ignore": [
+    "**/__tests__/**/*.js",
+    ".test.js"
+  ],
+  "presets": [
+    ["env", {"target": {"node": "current"}}]
+  ],
+  "plugins": [
+    "transform-runtime"
+  ]
+}

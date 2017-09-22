@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "build": "babel src -d dist --copy-files",
+    "watch": "npm run build -- --watch",
+    "start": "nodemon dist/index.js -w dist",
+    "dev": "npm-run-all -p start watch"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "6.25.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-runtime": "6.23.0",
+    "eslint": "^4.7.1",
+    "nodemon": "^1.11.0",
+    "npm-run-all": "^4.0.2"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "util.promisify": "^1.0.0"
+  }
+}
