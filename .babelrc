@@ -4,7 +4,7 @@
     ".test.js"
   ],
   "presets": [
-    ["env", {"target": {"node": "current"}}]
+    ["env", {"targets": {"node": "current"}}]
   ],
   "plugins": [
     "transform-runtime"
